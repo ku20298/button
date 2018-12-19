@@ -78,7 +78,9 @@ func update(screen *ebiten.Image) error {
 	if ebiten.IsDrawingSkipped() {
 		return nil
 	}
-
+	
+	screen.Fill(colornames.Black)
+	
 	ebitenutil.DebugPrint(screen, strconv.Itoa(int(ebiten.CurrentFPS())))
 
 	sp.draw(screen)
