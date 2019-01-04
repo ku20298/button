@@ -1,4 +1,4 @@
-# button
-ebiten button test
+# yokemen
+ebiten
 
-https://ku20298.github.io/button/
+https://ku20298.github.io/yokemen/
